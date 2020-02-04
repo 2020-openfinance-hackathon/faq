@@ -2,22 +2,30 @@ Open Finance Hackathon
 =========
 
 <!--ts-->
-  * [Open Finance Hackathon](#open-finance-hackathon)
+   * [Open Finance Hackathon](#open-finance-hackathon)
    * [Definition of Terms](#definition-of-terms)
-      * [User](#user)
-      * [Consumer](#consumer)
-      * [Account](#account)
-      * [Customer](#customer)
-      * [Counterparty](#counterparty)
-      * [FX (Foreign Exchange)](#fx-foreign-exchange)
-      * [KYC (Know Your Customer)](#kyc-know-your-customer)
+         * [User](#user)
+         * [Consumer](#consumer)
+         * [Account](#account)
+         * [Customer](#customer)
+         * [Counterparty](#counterparty)
+         * [FX (Foreign Exchange)](#fx-foreign-exchange)
+         * [KYC (Know Your Customer)](#kyc-know-your-customer)
+         * [View](#view)
    * [Resources](#resources)
-      * [Simplified ERD](#simplified-erd)
-      * [Example projects using Open Banking](#example-projects-using-open-banking)
+         * [Simplified ERD](#simplified-erd)
+         * [Example projects using Open Banking](#example-projects-using-open-banking)
+            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-reactjs">ReactJS</a>](#reactjs)
+            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-python">Python</a>](#python)
+            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-spring">Springboot</a>](#springboot)
+            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-flutter">Flutter</a>](#flutter)
    * [Commonly Asked Questions](#commonly-asked-questions)
-      * [Will a mistake on Acme Bank impact or harm my test data permanently?](#will-a-mistake-on-acme-bank-impact-or-harm-my-test-data-permanently)
-      * [Will changes I make on Acme Bank affect other developers?](#will-changes-i-make-on-acme-bank-affect-other-developers)
-      * [What is the difference between the Berlin and the UK Standard?](#what-is-the-difference-between-the-berlin-and-the-uk-standard)
+         * [Will a mistake on Acme Bank impact or harm my test data permanently?](#will-a-mistake-on-acme-bank-impact-or-harm-my-test-data-permanently)
+         * [Will changes I make on Acme Bank affect other developers?](#will-changes-i-make-on-acme-bank-affect-other-developers)
+         * [What does check available funds do?](#what-does-check-available-funds-do)
+         * [What is the difference between the Berlin and the UK Standard?](#what-is-the-difference-between-the-berlin-and-the-uk-standard)
+            * [UK Standard / Open Banking](#uk-standard--open-banking)
+            * [Berlin Standard](#berlin-standard)
 <!--te-->
 
 Definition of Terms
@@ -73,14 +81,14 @@ Commonly Asked Questions
 =====
 
 ### Will a mistake on Acme Bank impact or harm my test data permanently?  
-Yes. However, if it needed, we can create a new bank with new test data for you.   
+Yes. However, if it is needed, we can create a new bank with new test data for you.   
 
 
 ### Will changes I make on Acme Bank affect other developers?  
 No. Your bank is its own sandbox and will not affect the data of the other developers.  
 
 ### What does check available funds do?
-Ability of another party (a coffee shop) to check your account for funds available for a transaction (coffee purchase) before it gets approved.
+It allows another party (a coffee shop) to check your account for funds available for a transaction (coffee purchase) before it gets approved.
 
 
 ### What is the difference between the Berlin and the UK Standard?  
