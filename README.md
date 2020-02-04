@@ -1,4 +1,4 @@
-# Open Finance Hackathon
+Open Finance Hackathon
 =========
 
 <!--ts-->
@@ -20,7 +20,7 @@
       * [What is the difference between the Berlin and the UK Standard?](#what-is-the-difference-between-the-berlin-and-the-uk-standard)
 <!--te-->
 
-## Definition of Terms:
+Definition of Terms
 =====
 
 ### User  
@@ -67,7 +67,7 @@ Process of verifying the identity of a customer
 
 
 
-## Commonly Asked Questions:
+Commonly Asked Questions
 =====
 
 ### Will a mistake on Acme Bank impact or harm my test data permanently?  
