@@ -85,3 +85,46 @@ Ability of another party (a coffee shop) to check your account for funds availab
 
 ### What is the difference between the Berlin and the UK Standard?  
 
+#### UK Standard / Open Banking
+
+Use Cases
+- Payment Initiation
+- Account Information
+
+Data Fields
+- Schemas were created by a small number of banks but provides more detailed and extensive information
+
+Customer Data Consent
+- Customer can specify clusters of their data that can be shared with 3rd parties
+
+Message Format
+- Uses JSON based on ISO 20022
+
+Authentication
+- Uses the redirect approach
+
+User Experience
+- Standardized user experience such as 2FA, consent issuing, and payment authorization
+
+#### Berlin Standard
+
+Use Cases
+- Payment Initiation
+- Account Information
+- Fund Confirmation
+
+Data Fields
+- Schemas are minimal and required for all banks and based off of online banking masks
+
+Customer Data Consent
+- Users are only allowed to share account balances and transaction histories and only for a specific timeframe
+
+Message Format
+- Supports JSON with encapsulated ISO20022 based on other standards
+
+Authentication
+- Uses authentication via dedicated bank app (decoupled) and credentials carried through the API (embedded)
+
+User Experience
+- Each bank defines the user experience
+
