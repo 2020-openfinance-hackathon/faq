@@ -50,6 +50,9 @@ Currency conversion rates and their titles
 ### KYC (Know Your Customer)  
 Process of verifying the identity of a customer
 
+### View
+Ability of a customer to view and make changes their accounts (owner) or give another customer permissions to view it without being able to transact (customer view definition)
+
 
 Resources
 =====
@@ -75,6 +78,9 @@ Yes. However, if it needed, we can create a new bank with new test data for you.
 
 ### Will changes I make on Acme Bank affect other developers?  
 No. Your bank is its own sandbox and will not affect the data of the other developers.  
+
+### What does check available funds do?
+Ability of another party (a coffee shop) to check your account for funds available for a transaction (coffee purchase) before it gets approved.
 
 
 ### What is the difference between the Berlin and the UK Standard?  
