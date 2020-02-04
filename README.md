@@ -51,7 +51,7 @@ Currency conversion rates and their titles
 Process of verifying the identity of a customer
 
 
-## Resources:
+Resources
 =====
 
 ### Simplified ERD
@@ -59,11 +59,10 @@ Process of verifying the identity of a customer
 
 
 ### Example projects using Open Banking  
-#### [NodeJS]()
-#### [ReactJS]()  
-#### [Python]()  
-#### [Springboot]()  
-#### [Flutter]()  
+#### [ReactJS](https://github.com/2020-openfinance-hackathon/direct-login-reactjs)  
+#### [Python](https://github.com/2020-openfinance-hackathon/direct-login-python)  
+#### [Springboot](https://github.com/2020-openfinance-hackathon/direct-login-spring)  
+#### [Flutter](https://github.com/2020-openfinance-hackathon/direct-login-flutter)  
 
 
 
