@@ -23,41 +23,43 @@ Open Finance Hackathon
 Definition of Terms:
 =====
 
-**User**
+*User*
 In this case, you, the developer
 
 
-**Consumer**
+*Consumer*
 The developer, as a consumer, consumes the APIs with a key and secret
 
 
-**Account**
+*Account*
 An account held by a customer at a bank
 
 
-**Customer**
+*Customer*
 A person or an entity that holds accounts in a bank
 
 
-**Counterparty**
+*Counterparty*
 The other party that participates in a financial transaction (e.g. a payee)
 
 
-**FX (Foreign Exchange)**
+*FX (Foreign Exchange)*
 Currency conversion rates and their titles
 
 
-**KYC (Know Your Customer)**
+*KYC (Know Your Customer)*
 Process of verifying the identity of a customer
 
 
 Resources:
 =====
 
-**Simplified ERD**
+*Simplified ERD*
 ![Simplified ERD for the Hackathon](Hackathon_ERD.png)
 
-**Example projects using Open Banking**
+
+
+*Example projects using Open Banking*
 [**NodeJS**]()
 [**ReactJS**]()
 [**Python**]()
