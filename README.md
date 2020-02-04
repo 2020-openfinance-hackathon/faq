@@ -23,64 +23,59 @@ Open Finance Hackathon
 Definition of Terms:
 =====
 
-User
------
+**User**
 In this case, you, the developer
 
 
-Consumer
------
+**Consumer**
 The developer, as a consumer, consumes the APIs with a key and secret
 
 
-Account
------
+**Account**
 An account held by a customer at a bank
 
 
-Customer
------
+**Customer**
 A person or an entity that holds accounts in a bank
 
 
-Counterparty
------
+**Counterparty**
 The other party that participates in a financial transaction (e.g. a payee)
 
 
-FX (Foreign Exchange)
------
+**FX (Foreign Exchange)**
 Currency conversion rates and their titles
 
 
-KYC (Know Your Customer)
------
+**KYC (Know Your Customer)**
 Process of verifying the identity of a customer
 
 
 Resources:
 =====
 
-Simplified ERD
------
+**Simplified ERD**
 ![Simplified ERD for the Hackathon](Hackathon_ERD.png)
 
-Example projects using Open Banking
------
+**Example projects using Open Banking**
+[**NodeJS**]()
+[**ReactJS**]()
+[**Python**]()
+[**Springboot**]()
+[**Flutter**]()
+
+
 
 Commonly Asked Questions:
 =====
 
-Will a mistake on Acme Bank impact or harm my test data permanently?
------
+**Will a mistake on Acme Bank impact or harm my test data permanently?**
 Yes. However, if it needed, we can create a new bank with new test data for you. 
 
 
-Will changes I make on Acme Bank affect other developers?
------
+**Will changes I make on Acme Bank affect other developers?**
 No. Your bank is its own sandbox and will not affect the data of the other developers.
 
 
-What is the difference between the Berlin and the UK Standard?
------
+**What is the difference between the Berlin and the UK Standard?**
 
