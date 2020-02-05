@@ -1,6 +1,7 @@
 Open Finance Hackathon
 =========
 
+
 <!--ts-->
    * [Open Finance Hackathon](#open-finance-hackathon)
    * [Definition of Terms](#definition-of-terms)
@@ -27,6 +28,7 @@ Open Finance Hackathon
             * [UK Standard / Open Banking](#uk-standard--open-banking)
             * [Berlin Standard](#berlin-standard)
 <!--te-->
+
 
 Definition of Terms
 =====
