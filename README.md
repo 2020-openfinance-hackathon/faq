@@ -14,6 +14,7 @@ Open Finance Hackathon
          * [View](#view)
    * [Resources](#resources)
          * [Simplified ERD](#simplified-erd)
+         * [Full ERD](#full-erd)
          * [Example projects using Open Banking](#example-projects-using-open-banking)
             * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-reactjs">ReactJS</a>](#reactjs)
             * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-python">Python</a>](#python)
@@ -68,6 +69,9 @@ Resources
 ### Simplified ERD
 ![Simplified ERD for the Hackathon](Hackathon_ERD.png)
 
+
+### Full ERD
+![Full ERD for the Hackathon](Hackathon_ERD_Full.png)
 
 ### Example projects using Open Banking  
 #### [ReactJS](https://github.com/2020-openfinance-hackathon/direct-login-reactjs)  
