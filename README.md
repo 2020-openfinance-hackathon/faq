@@ -1,32 +1,35 @@
 Open Finance Hackathon
+=================
+
+Table of Contents
 =========
 
 <!--ts-->
-   * [Open Finance Hackathon](#open-finance-hackathon)
-   * [Definition of Terms](#definition-of-terms)
-         * [User](#user)
-         * [Consumer](#consumer)
-         * [Account](#account)
-         * [Customer](#customer)
-         * [Counterparty](#counterparty)
-         * [FX (Foreign Exchange)](#fx-foreign-exchange)
-         * [KYC (Know Your Customer)](#kyc-know-your-customer)
-         * [View](#view)
-   * [Resources](#resources)
-         * [Simplified ERD](#simplified-erd)
-         * [Full ERD](#full-erd)
-         * [Example projects using Open Banking](#example-projects-using-open-banking)
-            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-reactjs">ReactJS</a>](#reactjs)
-            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-python">Python</a>](#python)
-            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-spring">Springboot</a>](#springboot)
-            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-flutter">Flutter</a>](#flutter)
-   * [Commonly Asked Questions](#commonly-asked-questions)
-         * [Will a mistake on Acme Bank impact or harm my test data permanently?](#will-a-mistake-on-acme-bank-impact-or-harm-my-test-data-permanently)
-         * [Will changes I make on Acme Bank affect other developers?](#will-changes-i-make-on-acme-bank-affect-other-developers)
-         * [What does check available funds do?](#what-does-check-available-funds-do)
-         * [What is the difference between the Berlin and the UK Standard?](#what-is-the-difference-between-the-berlin-and-the-uk-standard)
-            * [UK Standard / Open Banking](#uk-standard--open-banking)
-            * [Berlin Standard](#berlin-standard)
+   * [Open Finance Hackathon](#open-finance-hackathon)  
+   * [Definition of Terms](#definition-of-terms)  
+         * [User](#user)  
+         * [Consumer](#consumer)  
+         * [Account](#account)  
+         * [Customer](#customer)  
+         * [Counterparty](#counterparty)  
+         * [FX (Foreign Exchange)](#fx-foreign-exchange)  
+         * [KYC (Know Your Customer)](#kyc-know-your-customer)  
+         * [View](#view)  
+   * [Resources](#resources)  
+         * [Simplified ERD](#simplified-erd)  
+         * [Full ERD](#full-erd)  
+         * [Example projects using Open Banking](#example-projects-using-open-banking)  
+            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-reactjs">ReactJS</a>](#reactjs)  
+            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-python">Python</a>](#python)  
+            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-spring">Springboot</a>](#springboot)  
+            * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-flutter">Flutter</a>](#flutter)  
+   * [Commonly Asked Questions](#commonly-asked-questions)  
+         * [Will a mistake on Acme Bank impact or harm my test data permanently?](#will-a-mistake-on-acme-bank-impact-or-harm-my-test-data-permanently)  
+         * [Will changes I make on Acme Bank affect other developers?](#will-changes-i-make-on-acme-bank-affect-other-developers)  
+         * [What does check available funds do?](#what-does-check-available-funds-do)  
+         * [What is the difference between the Berlin and the UK Standard?](#what-is-the-difference-between-the-berlin-and-the-uk-standard)  
+            * [UK Standard / Open Banking](#uk-standard--open-banking)  
+            * [Berlin Standard](#berlin-standard)  
 <!--te-->
 
 Definition of Terms
@@ -99,44 +102,44 @@ It allows another party (a coffee shop) to check your account for funds availabl
 
 #### UK Standard / Open Banking
 
-- Use Cases
-   - Payment Initiation
-   - Account Information
+##### Use Cases
+ - Payment Initiation
+ - Account Information
 
-- Data Fields
-   - Schemas were created by a small number of banks but provides more detailed and extensive information
+##### Data Fields
+ - Schemas were created by a small number of banks but provides more detailed and extensive information
 
-- Customer Data Consent
-   - Customer can specify clusters of their data that can be shared with 3rd parties
+##### Customer Data Consent
+ - Customer can specify clusters of their data that can be shared with 3rd parties
 
-- Message Format
-   - Uses JSON based on ISO 20022
+##### Message Format
+ - Uses JSON based on ISO 20022
 
-- Authentication
-   - Uses the redirect approach
+##### Authentication
+ - Uses the redirect approach
 
-- User Experience
-   - Standardized user experience such as 2FA, consent issuing, and payment authorization
+##### User Experience
+ - Standardized user experience such as 2FA, consent issuing, and payment authorization
 
 #### Berlin Standard
 
-- Use Cases
-   - Payment Initiation
-   - Account Information
-   - Fund Confirmation
+##### Use Cases
+ - Payment Initiation
+ - Account Information
+ - Fund Confirmation
 
-- Data Fields
-   - Schemas are minimal and required for all banks and based off of online banking masks
+##### Data Fields
+ - Schemas are minimal and required for all banks and based off of online banking masks
 
-- Customer Data Consent
-   - Users are only allowed to share account balances and transaction histories and only for a specific timeframe
+##### Customer Data Consent
+ - Users are only allowed to share account balances and transaction histories and only for a specific timeframe
 
-- Message Format
-   - Supports JSON with encapsulated ISO20022 based on other standards
+##### Message Format
+ - Supports JSON with encapsulated ISO20022 based on other standards
 
-- Authentication
-   - Uses authentication via dedicated bank app (decoupled) and credentials carried through the API (embedded)
+##### Authentication
+ - Uses authentication via dedicated bank app (decoupled) and credentials carried through the API (embedded)
 
-- User Experience
-   - Each bank defines the user experience
+##### User Experience
+ - Each bank defines the user experience
 
