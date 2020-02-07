@@ -18,6 +18,7 @@ Table of Contents
    * [Resources](#resources)  
        * [Simplified ERD](#simplified-erd)  
        * [Full ERD](#full-erd)  
+       * [Data Tree](#data-tree)  
        * [Example projects using Open Banking](#example-projects-using-open-banking)  
           * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-reactjs">ReactJS</a>](#reactjs)  
           * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-python">Python</a>](#python)  
