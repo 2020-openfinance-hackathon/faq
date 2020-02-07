@@ -76,6 +76,39 @@ Resources
 ### Full ERD
 ![Full ERD for the Hackathon](Hackathon_ERD_Full.png)
 
+### Data Tree
+```bash
+├── Application
+│   ├── User 1
+│   │   ├── username
+│   │   ├── password
+│   │   ├── acme_bank_id
+│   │   └── customers
+|   |       ├── customer a
+|   |   |   |   ├── customer name
+|   |   |   |   ├── customer id
+|   |   |   |   └── ....
+│   │   └── accounts
+|   |       ├── account a.1
+|   |   |   |   ├── account label
+|   |   |   |   ├── account id
+|   |   |   |   └── ....
+│   ├── User 1
+│   │   ├── username
+│   │   ├── password
+│   │   ├── acme_bank_id
+│   │   └── customers
+|   |       ├── customer a
+|   |   |   |   ├── customer name
+|   |   |   |   ├── customer id
+|   |   |   |   └── ....
+│   │   └── accounts
+|   |       ├── account a.1
+|   |   |   |   ├── account label
+|   |   |   |   ├── account id
+|   |   |   |   └── ....
+```
+
 ### Example projects using Open Banking  
 #### [ReactJS](https://github.com/2020-openfinance-hackathon/direct-login-reactjs)  
 #### [Python](https://github.com/2020-openfinance-hackathon/direct-login-python)  
