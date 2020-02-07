@@ -79,11 +79,10 @@ Resources
 
 ### Data Tree
 ```bash
-├── Application
+├── Bank
 │   ├── User 1
 │   │   ├── username
 │   │   ├── password
-│   │   ├── acme_bank_id
 │   │   └── customers
 |   |       ├── customer a
 |   |   |   |   ├── customer name
@@ -97,7 +96,6 @@ Resources
 │   ├── User 1
 │   │   ├── username
 │   │   ├── password
-│   │   ├── acme_bank_id
 │   │   └── customers
 |   |       ├── customer a
 |   |   |   |   ├── customer name
