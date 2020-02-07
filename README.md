@@ -93,7 +93,7 @@ Resources
 |   |   |   |   ├── account label
 |   |   |   |   ├── account id
 |   |   |   |   └── ....
-│   ├── User 1
+│   ├── User 2
 │   │   ├── username
 │   │   ├── password
 │   │   └── customers
@@ -102,7 +102,7 @@ Resources
 |   |   |   |   ├── customer id
 |   |   |   |   └── ....
 │   │   └── accounts
-|   |       ├── account a.1
+|   |       ├── account 2.a
 |   |   |   |   ├── account label
 |   |   |   |   ├── account id
 |   |   |   |   └── ....
