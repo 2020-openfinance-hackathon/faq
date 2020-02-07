@@ -16,9 +16,9 @@ Table of Contents
        * [KYC (Know Your Customer)](#kyc-know-your-customer)  
        * [View](#view)  
    * [Resources](#resources)  
-       * [Simplified ERD](#simplified-erd)  
-       * [Full ERD](#full-erd)  
        * [Data Tree](#data-tree)  
+       * [Simplified ERD](#simplified-erd)  
+       * [Full ERD](#full-erd)   
        * [Example projects using Open Banking](#example-projects-using-open-banking)  
           * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-reactjs">ReactJS</a>](#reactjs)  
           * [<a href="https://github.com/2020-openfinance-hackathon/direct-login-python">Python</a>](#python)  
@@ -70,13 +70,6 @@ Ability of a customer to view and make changes their accounts (owner) or give an
 Resources
 =====
 
-### Simplified ERD
-![Simplified ERD for the Hackathon](Hackathon_ERD.png)
-
-
-### Full ERD
-![Full ERD for the Hackathon](Hackathon_ERD_Full.png)
-
 ### Data Tree
 ```bash
 ├── Bank
@@ -84,36 +77,56 @@ Resources
 │   │   ├── username
 │   │   ├── password
 │   │   └── customers
-|   |       ├── customer a
+|   |   |   └── customer a
 |   |   |   |   ├── customer name
 |   |   |   |   ├── customer id
 |   |   |   |   └── ....
+|   |   |   └── customer b
 │   │   └── accounts
-|   |       ├── account a.1
-|   |   |   |   ├── account label
-|   |   |   |   ├── account id
-|   |   |   |   └── ....
+|   |       └── account a.1
+|   |       |   ├── account label
+|   |       |   ├── account id
+|   |       |   └── transactions
+|   |       |       └── transaction i
+|   |       |       |   ├── transaction id
+|   |       |       |   ├── transaction amount
+|   |       |       |   └── ...
+|   |       |       └── transaction ii
+|   |       └── account a.2
 │   ├── User 2
 │   │   ├── username
 │   │   ├── password
 │   │   └── customers
-|   |       ├── customer a
+|   |   |   └── customer a
 |   |   |   |   ├── customer name
 |   |   |   |   ├── customer id
 |   |   |   |   └── ....
+|   |   |   └── customer b
 │   │   └── accounts
-|   |       ├── account 2.a
-|   |   |   |   ├── account label
-|   |   |   |   ├── account id
-|   |   |   |   └── ....
+|   |       └── account a.1
+|   |       |   ├── account label
+|   |       |   ├── account id
+|   |       |   └── transactions
+|   |       |       └── transaction i
+|   |       |       |   ├── transaction id
+|   |       |       |   ├── transaction amount
+|   |       |       |   └── ...
+|   |       |       └── transaction ii
+|   |       └── account a.2
 ```
+
+### Simplified ERD
+![Simplified ERD for the Hackathon](Hackathon_ERD.png)
+
+
+### Full ERD
+![Full ERD for the Hackathon](Hackathon_ERD_Full.png)
 
 ### Example projects using Open Banking  
 #### [ReactJS](https://github.com/2020-openfinance-hackathon/direct-login-reactjs)  
 #### [Python](https://github.com/2020-openfinance-hackathon/direct-login-python)  
 #### [Springboot](https://github.com/2020-openfinance-hackathon/direct-login-spring)  
 #### [Flutter](https://github.com/2020-openfinance-hackathon/direct-login-flutter)  
-
 
 
 Commonly Asked Questions
